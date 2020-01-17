@@ -28,7 +28,7 @@ def initial_round
   sum = deal_card + deal_card
   display_card_total(sum)
   return sum
-  
+
 end
 
 def hit?
@@ -36,7 +36,7 @@ def hit?
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
