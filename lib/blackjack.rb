@@ -1,3 +1,4 @@
+require 'pry'
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -33,6 +34,7 @@ end
 
 def hit?(card_total)
   prompt_user
+
   get_user_input
 end
 
