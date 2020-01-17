@@ -34,7 +34,7 @@ end
 
 def hit?(card_total)
   prompt_user
-
+  binding.pry
   get_user_input
 end
 
